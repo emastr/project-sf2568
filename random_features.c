@@ -141,6 +141,7 @@ void load_data(char* path, double* data_x, double* data_y, int Ndata){
 int main(int argc, char** argv) {
     int rank, size, N, n, Ndata, Iters;
     int info;
+    double sigma;
     FILE *inp;
 
     MPI_Init(&argc, &argv);
